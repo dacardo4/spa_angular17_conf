@@ -18,7 +18,7 @@ const lifecycles = singleSpaAngular({
     singleSpaPropsSubject.next(singleSpaProps);
     return platformBrowserDynamic(getSingleSpaExtraProviders()).bootstrapModule(AppComponent);
   },
-  template: '<app-root />',
+  template: '<app-david-root />',
   Router,
   NavigationStart,
   NgZone,
